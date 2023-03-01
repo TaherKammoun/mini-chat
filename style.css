@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #1a1a1a;
+}
+
+#container {
+    width: 40%;
+    background: #fff;
+    margin: 0px auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+#chat-box {
+    width: 90%;
+    height: 400px;
+    color: #1a1a1a;
+}
+
+#chat-data {
+    font-weight:bold;
+    border-bottom: 1px solid crimson;
+    
+}
+form {
+    flex: 1 1 42rem;
+}
+
+
+.name {
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    margin: 0.7rem 0;
+    padding-left: 8px;
+}
+
+textarea {
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    height: 80px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: crimson;
+    color: #fff;
+    font-size: 1.7rem;
+    padding-left: 2rem;
+    cursor: pointer; /* pour changer la forme de la souri */
+    padding: 1rem 3rem;
+    transition: .4s ease;
+}
+
+.btn:hover {
+    margin-left: 2rem;
+    transform: scale(1.1);
+    background: rgb(250, 3, 52);
+} 
+@media only screen and (max-width:770px) {
+    #container{
+        width: 85%;
+    }
+    .name{
+        font-size: 14px;
+    }
+    textarea{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    #container{
+        width: 85%;
+    }
+    .name{
+        font-size: 14px;
+    }
+    textarea{
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
